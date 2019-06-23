@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDDDCCAfSgAwIBAgIRAMkeOdf/2tFtSGe69AbLwtUwDQYJKoZIhvcNAQELBQAw
+    LzEtMCsGA1UEAxMkYWI2OTI3ZTktYmU5NC00MWFlLThkZjQtZGZlMDQ4MzZkZjE1
+    MB4XDTE5MDYyMzIyNDUyNloXDTI0MDYyMTIzNDUyNlowLzEtMCsGA1UEAxMkYWI2
+    OTI3ZTktYmU5NC00MWFlLThkZjQtZGZlMDQ4MzZkZjE1MIIBIjANBgkqhkiG9w0B
+    AQEFAAOCAQ8AMIIBCgKCAQEAoO87R8xRnUmh1fKYYO4kR4AW82lkl86AbdDxElhg
+    4GcPIVcZkpnIocCRJylZxX9ZwM7pRqB/w3imOFV1JUEyCAUi1QqPwZQ4Y1J/Bl8H
+    K5hjpqjVIvN7J0tJ5DvkakOSsNDhwQBG4wgxmTneFiRvagFgrFhjsewNeMotnheg
+    NhjpYIuZ7Hna07tXeLhA+sRAcJb5eX5FhkYaTZSGd9SYeDOjsduURODGxA8Hp3CQ
+    lZHcQZFpebU4+gd+6xQEs7zn+hCjnHgXuGaBWKnXzYcwSngtwMwia2mKx38JRmaU
+    2z4lSYy53jYmZl6K9pFIK4zWtsM2A5/yGHw9YEzrywD6VQIDAQABoyMwITAOBgNV
+    HQ8BAf8EBAMCAgQwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA
+    iQoppNRDOOXdkQUIJviXuOIWr1DLH5QFrj5WsCaufJBJnVHs+MiYzS18N4RxClO0
+    POQwwzhV+4x/PMjMMQgK3QKJQhuqraBqcltq3qDJUyVkTjUZNBk7oxlvU3PyJHsQ
+    nb9d/COhLv3c6rFYGjYhduCFiDZ9oZyBFtWnxTGxfqd7HT3ndF4HSfk9cfU29D1u
+    jFkfrkCCzYlQtvlCJAEV4s7ixCnyjTh8Lj6x+CgEzdN92lk3cnSdknK7eNCfyYm2
+    6P0JwY8lbpfurzRTjwthaThKHfOR3+G9HiYnSLiQJAh6WFHATirLQRYquJmTNWtT
+    6uUkhc+yfITRBWRtyUCuZA==
+    -----END CERTIFICATE-----
+  clusterName: mark9
+  jx-install-version: 2.0.317
+  kubeProvider: gke
+  projectID: kubernetes-237423
+  region: ""
+  secretsLocation: vault
+  server: https://35.203.128.28
+  systemVaultName: jx-vault-mark9
+  zone: us-west1-a
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
